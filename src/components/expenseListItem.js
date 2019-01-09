@@ -12,7 +12,7 @@ const ExpenseListItem = ({description, amount, note, createdAt, index, id }) => 
          - 
         {moment(createdAt).format('MMMM Do, YYYY')}   
         {note} 
-        {id}</p>
+        </p>
     </div>
 );
 
